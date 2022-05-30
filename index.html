@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your todo</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+<body>
+<div id="container">
+    <div class="controls">
+        <h1 id="hed">Todo List</h1>
+        <input type="text" id="input" placeholder="What you want to do....">
+        <button type="button" id="add">ADD</button>
+        <button type="button" id="remove">REMOVE</button>
+<p id="empty"></p>
+    </div>
+<ul id="list">
+    <li class="mycheck"><input type="checkbox" id="check"><label>Task is added</label></li>
+<li class="mycheck"> 
+    <input type="checkbox" id="check" checked>
+    <label >Going for shopping</label>
+       </li>
+       <li class="mycheck"> 
+        <input type="checkbox" id="check" checked>
+        <label >Wake up at 5</label>
+           </li>
+  </ul>
+</div>
+</div>
+
+    <script  src="todo.js"></script>
+</body>
+</html>
